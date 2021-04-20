@@ -1,0 +1,32 @@
+#table {
+    display: inline;
+    margin-top: 50px;
+}
+
+td {
+    height: 4vh;
+    width: 4vh;
+    border-color: 1px solid black;
+}
+
+td:hover {
+    background-color: teal; 
+ }
+
+#btn {
+   
+    color: white;
+    background-color: maroon;
+}
+
+#btn:hover{
+   cursor: pointer; 
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}

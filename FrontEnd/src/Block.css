@@ -1,0 +1,12 @@
+td {
+    background-color: paleturquoise;
+    border: 1px solid black;
+}
+td:hover{
+    background-color: green;
+}
+
+
+.pathBlock {
+    background-color: navy;
+}

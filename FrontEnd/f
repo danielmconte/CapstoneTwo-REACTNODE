@@ -1,0 +1,47 @@
+[33mcommit f253b8bdd035704a37cd277deaf3f1ced8f4ecbc[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Daniel-Conte <danielmconte.hotmail.com>
+Date:   Wed Feb 24 08:55:43 2021 -0800
+
+    7 basic functions
+
+[33mcommit 1e97f0e6981e339c1ce5355e786540c4fd4125de[m
+Author: Daniel-Conte <danielmconte.hotmail.com>
+Date:   Thu Feb 18 09:59:18 2021 -0800
+
+    6 withForm but before form passes up
+
+[33mcommit dfa6bf2c9d41e94f56c835e9b6f8ebc5fc61f931[m
+Author: Daniel-Conte <danielmconte.hotmail.com>
+Date:   Wed Feb 17 08:08:26 2021 -0800
+
+    5 path with spEP
+
+[33mcommit 96a1b4d62ea1d7c029d633cd9678f451d6d2d819[m
+Author: Daniel-Conte <danielmconte.hotmail.com>
+Date:   Tue Feb 16 14:37:47 2021 -0800
+
+    4 working graphmaker
+
+[33mcommit 10dfe9007086697e4f4adc5312f748121b2c2f9d[m
+Author: Daniel-Conte <danielmconte.hotmail.com>
+Date:   Tue Feb 16 14:04:00 2021 -0800
+
+    3 as I implement algo
+
+[33mcommit da9ae7da56dadd927cabf735fb2ffb8d9b6edcf9[m
+Author: Daniel-Conte <danielmconte.hotmail.com>
+Date:   Tue Feb 16 10:41:33 2021 -0800
+
+    2 after context for skeleton
+
+[33mcommit 8ed7d7886b2b3cb6f39e9d01356adf64d47ec8e9[m
+Author: Daniel-Conte <danielmconte.hotmail.com>
+Date:   Tue Feb 16 10:28:01 2021 -0800
+
+    1 before logic is moved to gridskeleton
+
+[33mcommit d63e5757d3574f2b7e956bbbefaaaedd4c181ad7[m
+Author: Daniel-Conte <danielmconte.hotmail.com>
+Date:   Mon Feb 8 12:21:31 2021 -0800
+
+    Initialize project using Create React App
