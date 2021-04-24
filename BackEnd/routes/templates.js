@@ -42,7 +42,7 @@ router.get("/", async function(req, res, next) {
         });
       }
       const template = await Template.create(req.body);
-      return res.status(201).json({template});
+      return res.json({ message: `Template Saved`})
     }
   
     catch (err) {
