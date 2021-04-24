@@ -33,13 +33,14 @@ class TemplateApi {
     }
 
     static async newTemplate(token, wall, height, width) {
-        await axios.post(`/templates`, {
+        const response = await axios.post(`/templates`, {
             _token: token,
             wall: wall,
             height: height,
             width: width,
             user_id: 1,
         });
+        return response;
     }
 
     static async deleteTemplate(id, token) {

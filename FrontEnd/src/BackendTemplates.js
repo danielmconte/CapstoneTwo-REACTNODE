@@ -7,6 +7,7 @@ import "./BackendTemplates.css";
 const BackEndTemplates = ({ tempMaker }) => {
     const [template, setTemplate] = useState(null);
     const [refreshTemplate, setRefreshTemplate] = useState(null)
+    const [message, setMessage] = useState(null);
 
     const { wallBlocks } = useSelector(
         (state) => ({
@@ -48,7 +49,8 @@ const BackEndTemplates = ({ tempMaker }) => {
         setRefreshTemplate(`Refresh ${evt.target.id}`)
         let stringy = wallBlocks.join();
         async function postTemplate() {
-            await TemplateApi.newTemplate(token, stringy, height, width);
+            let result = await TemplateApi.newTemplate(token, stringy, height, width);
+            setMessage(result);
         }
         postTemplate();
     };
@@ -111,6 +113,15 @@ const BackEndTemplates = ({ tempMaker }) => {
                     <button>SAVE TEMPLATE</button>
                 </form>
             ) : null}
+
+
+            {message ? (
+                <div>
+                    <h6>{JSON.stringify(message.data.message)}</h6>
+                </div>
+            ) : (
+                null
+            )}
         </div>
     );
 };
