@@ -9,4 +9,4 @@
 #### After you clone: npm install for both frontend and backend folders, and from the backend folder run psql -f data.sql in windows to seed the database (psql < data.sql for mac). 
 #### Start your server from the backend folder with node server.js, then start React from the frontend folder with npm start, and you should be good to go!
 
-### Hope to deploy soon on Heroku (currently having some trouble). 
+### Or just take a look, deployed at https://dev9132.dftqxc0t0f3bt.amplifyapp.com
